@@ -1,6 +1,6 @@
 .title{
     color: rgb(153, 51, 20);
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 200;
     background-color: bisque;
     padding: 20px;
@@ -25,7 +25,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 40%;
-    background-color: burlywood;
+    background-color: rgb(175, 141, 66);
 }
 
 .description{
@@ -78,4 +78,19 @@ ol{
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+
+
+.block,
+li{
+    border: 2px solid rgb(231, 153, 129);
+    padding: 2px;
+    background-color: bisque;
+    opacity: 78%;
+}
+
+.box,
+li{
+    margin: 0 2em 0 2em;
 }
